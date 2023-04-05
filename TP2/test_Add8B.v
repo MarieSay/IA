@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 module stimulus;
 	// Inputs
-	reg [15:0] a;
-	reg [15:0] b;
+	reg [31:0] a;
+	reg [31:0] b;
 	reg retenue_prec;
 	// Outputs
 	wire retenue;
-	wire [15:0] result;
+	wire [31:0] result;
 	// Instantiate the Unit Under Test (UUT)
 	adder8bit uut (
 		a, 
@@ -21,14 +21,14 @@ module stimulus;
 	$dumpfile("test_Add8B.vcd");
     $dumpvars(0,stimulus);
 		// Initialize Inputs
-		a = 16'b0000000000000000;
-		b = 16'b0000000000000000;
+		a = 32'b0000000000000000;
+		b = 32'b0000000000000000;
 		retenue_prec = 0;
  
-	#20 a = 16'd01;
-	#20 b = 16'd02;
-	#20 b = 16'd65535;
-	#20 a = 16'd255;	  
+	#20 a = 32'd01;
+	#20 b = 32'd02;
+	#20 b = 32'd65535;
+	#20 a = 32'd255;	  
  
 	end  
  
