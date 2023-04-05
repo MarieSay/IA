@@ -202,6 +202,7 @@ while(c != 0) :
         deb = int(inter)
         tab=[]
         for i in range (int(nb)):
+	    print("Entrez la valeur suivante : \n")
             a = input()
             tab.append(a)
         print("Vous souhaitez donc exécutez ce programme avec les features suivantes :", tab)
