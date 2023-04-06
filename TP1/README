@@ -1,6 +1,0 @@
-# TP1 IA
-
-Vous trouverez dans ce dossier les différents fichiers joblib nécessaire au bon fonctionnement du code, ainsi que le code lui-même permettant de tester plusieurs algorithmes tel que :
-- La régression linéaire
-- La régression logistique
-- Les arbres de décision
