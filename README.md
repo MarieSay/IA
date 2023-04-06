@@ -3,6 +3,10 @@
 Dans ce Git, vous trouverez 2 dossiers. 
 Le premier correspondant aux exercices demandés lors du TP1 et le deuxième : au TP2.
 
+## Licence :
+
+Ces codes sont des fichiers réalisés dans le cadre éducatif. Ils peuvent être réutilisés et adaptés mais les sources ne doivent pas être modifié par un individu qui n'a pas les droits dessus.
+
 # TP1 IA
 
 Vous trouverez dans ce dossier les différents fichiers joblib nécessaire au bon fonctionnement du code, ainsi que le code lui-même permettant de tester plusieurs algorithmes tel que :
@@ -45,3 +49,39 @@ Dans le terminal on a :
 
 Donc je vais dans le bon dossier à l'aide de la commande cd. Ensuite, je copie colle une à une les commandes. La première est pour vérifier la compilation, la deuxième est pour créer le script d'execution et la troisième est pour exécuter le code.
 
+## Compatibilité :
+
+Ces script ont été executés avec Python 3.10 et un compilateur gcc.
+
+
+# IA TP2
+
+Vous trouverez dans ce TP l'ensemble des fichiers générés par le TP.
+
+Les tests bench sont les suivants :
+L'exercice 1 : test_and_gate.v
+L'exercice 2 : test_exercice2.v
+L'exercice 3 : test_exercice3.v
+L'additionneur 1 Bit : test_Add1B.v
+L'additionneur 8 Bits : test_Add8B.v
+Le multiplieur 8 Bits : test_Mul8B.v
+La régression linéaire simple : test_Regression.v
+Le transpileur dans python : Regression_nV_py_test.v
+
+Egalement, vous trouverez un pdf (ReponseTP2.pdf) avec les réponses et les résultats trouvés.
+
+Enfin, le transpiler.py correspond au script python demandé dans le dernier exercice.
+
+Le transpiler est compatible avec c0 a 32 bits, et le reste des coefficients et des caractéristiques à 16 bits.
+
+## Installation : 
+
+Commencez par télécharger le dossier. Ensuite, si vous souhaitez executer du verilog alors vous pouvez directement vous rendre sur le terminal et executer les fonctions souhaitées.
+
+Sinon, pour executer le code python, ouvrez un compilateur et executez le code. 
+
+Plus de détails sont disponibles dans le pdf.
+
+## Compatibilité :
+
+La version python utilisée était la 3.10.
